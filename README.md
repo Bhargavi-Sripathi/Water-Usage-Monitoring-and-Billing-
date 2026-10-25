@@ -76,35 +76,35 @@ This platform provides a centralized solution to manage water usage, automated b
 
 .
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
-The application follows a client-server architecture, with React as the frontend, Spring Boot as the backend, and MySQL as the database.
+The application follows a client-server architecture, with React.js and Vite as the frontend, Spring Boot as the backend, and MySQL as the database.
 
-             USERS
-                |
-       +--------+---------+
-       |        |         |
-   Main Admin  Community  Resident
-                Admin
-       |        |         |
-       +--------+---------+
-                |
-         React.js + Vite
-            Frontend
-                |
-           REST APIs
-                |
-        Spring Boot Backend
-                |
-      +---------+----------+
-      |         |          |
-  Controller  Service  Repository
-      |         |          |
-      +---------+----------+
-                |
-             MySQL
-                |
-       Persistent Data Storage
+```mermaid
+flowchart TD
+    U["Users"]
+    MA["Main Admin"]
+    CA["Community Admin"]
+    R["Resident"]
+    FE["React.js + Vite Frontend"]
+    API["REST APIs"]
+    C["Spring Boot Controllers"]
+    S["Service Layer"]
+    REP["Repository Layer - Spring Data JPA"]
+    DB[("MySQL Database")]
+
+    U --> MA
+    U --> CA
+    U --> R
+    MA --> FE
+    CA --> FE
+    R --> FE
+    FE <--> API
+    API <--> C
+    C --> S
+    S --> REP
+    REP <--> DB
+```
 
 
 
