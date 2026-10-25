@@ -145,15 +145,6 @@ Open the local URL displayed in the terminal to access the application.
 
 Ensure that MySQL is running and the backend database configuration is set correctly before starting the application.
 
-## 🎯 Project Objectives
-
-- Simplify water consumption monitoring.
-- Automate residential water billing and invoice generation.
-- Improve transparency in water cost distribution.
-- Enable residents to track bills, payments, and outstanding balances.
-- Help administrators manage communities and resident concerns.
-- Improve communication through notifications and email alerts.
-- Encourage responsible water consumption and efficient resource management.
 
 ## 🔮 Future Enhancements
 
