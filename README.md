@@ -74,11 +74,13 @@ This platform provides a centralized solution to manage water usage, automated b
 - **AI Chatbot** — Conversational user assistance.
 - **Email and Notification Services** — Support alerts and communication.
 
-## 🏗️ System Architecture
+.
 
-The application follows a client-server architecture using React for the frontend, Spring Boot for backend processing, and MySQL for data storage.
+🏗️ System Architecture
 
-              USERS
+The application follows a client-server architecture, with React as the frontend, Spring Boot as the backend, and MySQL as the database.
+
+             USERS
                 |
        +--------+---------+
        |        |         |
@@ -103,6 +105,8 @@ The application follows a client-server architecture using React for the fronten
              MySQL
                 |
        Persistent Data Storage
+
+
 
 ### How It Works
 
