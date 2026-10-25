@@ -1,4 +1,4 @@
-# Development of a Smart Water Usage Monitoring and Automated Billing Management Platform
+# WaterMaster – Development of a Smart Water Usage Monitoring and Automated Billing Management Platform
 
 A full-stack web application designed to simplify water consumption monitoring, billing administration, and payment management in residential communities. The platform provides dedicated Main Admin, Community Admin, and Resident portals to improve transparency, streamline billing operations, and encourage responsible water usage.
 
