@@ -147,3 +147,33 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# Java / Spring Boot
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build output
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Eclipse / STS
+.springBeans
+.sts4-cache/
+
+# Environment and secrets
+application-local.properties
+application-secret.properties
