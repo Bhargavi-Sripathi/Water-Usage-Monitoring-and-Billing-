@@ -43,7 +43,7 @@ This platform provides a centralized solution to manage water usage, automated b
 - Community announcements and notifications.
 
 ### 4. Additional Features
-- AI-powered chatbot for user assistance.
+- AI-powered chatbot using Groq API for intelligent conversational assistance.
 - Multilingual support.
 - In-app notifications.
 - Email alerts and announcements.
@@ -71,10 +71,10 @@ This platform provides a centralized solution to manage water usage, automated b
 
 ### Integrations
 - **Razorpay** — Online bill payment integration.
-- **AI Chatbot** — Conversational user assistance.
+- **Groq API** — Powers the AI chatbot for intelligent conversational assistance.
 - **Email and Notification Services** — Support alerts and communication.
 
-.
+
 
 ## 🏗️ System Architecture
 
